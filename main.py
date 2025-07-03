@@ -5,7 +5,7 @@ import pycountry
 
 class WeatherScraper:
     def __init__(self):
-        self.API_KEY = "a34cdf5beb075b10cc92d93ff40f84d0"
+        self.API_KEY = "#Enter your api key here"
         self.BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
         self.log_file = "weather_log.txt"
 
